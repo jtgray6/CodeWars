@@ -14,13 +14,13 @@
 // -- The consonant substrings are: "str" and "ngth" with values "str" = 19 + 20 + 18 = 57 and "ngth" = 14 + 7 + 20 + 8 = 49. The highest is 57.
 
 const conSolve = (str) => {
-    const splitStr = str.split(/a|e|i|o|u/);
-    const conSums = [];
     const alphabet = 'abcdefghijklmnopqrstuvwxyz';
     const alphaVals = {};
     for (let i=0; i<alphabet.length; i++){
-      alphaVals[alphabet[i]]=i+1;
+        alphaVals[alphabet[i]]=i+1;
     }
+    const splitStr = str.split(/a|e|i|o|u/);
+    const conSums = [];
     for (let i=0; i<splitStr.length; i++){
       let sum = 0;
       const letterArr = splitStr[i].split('');
