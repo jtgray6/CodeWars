@@ -14,8 +14,7 @@
 //loop thru char array and do find on counts where count[0]===char
 //if not found, create letterCount = [], letterCount[0]=char, letterCount[1]=1, push letterCount into counts
 //if found, foundChar[1]+=1
-//reverse sort counts by count[1] - sort function (a,b)=>a-b
-//sort by count[0]
+//
 //return counts; sorted at this point
 
 function characterFrequency (str) {
