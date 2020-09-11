@@ -1,0 +1,1 @@
+// Longest run: Given a string, return a tuple containing the indices of the longest run of a single character
